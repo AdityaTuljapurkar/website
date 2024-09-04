@@ -1,0 +1,196 @@
+body{
+    margin: 0em;
+    font-family: "Ubuntu", system-ui; 
+}
+.imageslider{
+    margin: 0px 0px;
+    width: 100% ;
+    height: 38em;
+    background-image: url(/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-size: cover;
+    animation: changeImage 15s linear 5s infinite;
+}
+@keyframes changeImage{
+0%{
+    background-image: url(/annie-spratt-QckxruozjRg-unsplash.jpg);
+}
+50%{
+    background-image: url(/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+}
+100%{
+    background-image: url(/austin-distel-mpN7xjKQ_Ns-unsplash.jpg);
+}
+}
+.buttonImg{
+    position: relative;
+    width: 11em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 90%;
+    left: 18%;
+    
+}
+
+
+
+.buttonImg a {
+    border-radius: 10em;
+    /* border: 3px solid yellow; */
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: red;
+    font-size: 1.5em;
+     animation: buttonImage 15s ease-in-out 7s infinite linear;
+
+}
+.buttonImg a:hover{
+    background-color: aliceblue;
+    color: red;
+    box-shadow: rgba(99, 0, 0, 0.911) 0px 19px 38px, rgba(216, 56, 7, 0.76) 0px 15px 12px;
+    
+}
+.buttonImg {
+    position: absolute;
+    top: 63%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    animation: animateButton 2s infinite;
+}
+
+@keyframes animateButton {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+       }   }
+.contianer2{
+    margin: 0em;
+    border: 2px solid black;
+    background-color: #ADBBAD;
+    display: flex;
+    height: 30em;
+    justify-self: flex-start;
+}
+.image41 {background-image: url(work/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 3em;
+    left: 3em;
+    border-radius: 15%;
+    z-index: 7;
+width: 11em;
+height: 10em;
+border: 2px solid white;
+
+}
+.image42 {background-image: url(work/christina-wocintechchat-com-8jwCWlsBys8-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 7em;
+    left: 0em;
+    z-index: 6;
+    border: 2px solid white;
+width: 11em;
+height: 10em;
+border-radius: 15%;
+}
+.image43 {background-image: url(work/josh-scorpio-H3Tuh0hwYQk-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 11em;
+    left: -3em;
+    z-index: 5;
+    border: 2px solid white;
+    width: 11em;
+    height: 10em;
+    border-radius: 15%;
+}
+.image44 {background-image: url(work/linkedin-sales-solutions-EI50ZDA-l8Y-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+     top: 15em;
+    left: -6em;
+    z-index: 4;
+    width: 11em;
+    border: 2px solid white;
+height: 10em;
+border-radius: 15%;
+}
+ .image41:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+
+ .image42:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .image43:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .image44:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .contianer3{
+    display: flex;
+    flex-direction: row;
+ }
+ .data1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0%;
+    position: relative;
+    right: -18em;
+    top: 8em;
+ }
+.data2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 16em;
+    width: 33%;
+    margin: .1em;
+    padding: .5em;
+
+}
+.data2:hover{
+    background-color: rgba(255, 0, 0, 0.678);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.contianer3Img{
+
+}
+.data3{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid  black;
+    margin: .5em;
+    width: 49%;
+    height: 14em;
+    border-radius: 10%;
+
+}
+.data3:hover{
+    background-color: rgba(236, 85, 85, 0.705);
+
+}
