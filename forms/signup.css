@@ -1,0 +1,39 @@
+body{
+    
+        font-family: "Ubuntu", system-ui;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0px;
+      
+    background-color: #ffda7c;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.userInput{
+    background-color: #4c6b5c;;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+
+}
+.userInput>input{
+    margin:  .5em;
+    padding: .5em;
+}
+.userInput>a{
+    text-align:center;
+    margin: .5em;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+.userInput>a:hover{
+    color:#ffca48; 
+}
+.data1{
+    display: flex;
+}

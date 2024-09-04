@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/resgister.css">
+</head>
+<body>
+    <div class="container">
+        <div class="PM" >
+                <h3>Personal Details</h3>
+            <form action="">
+                <input type="text" placeholder="Enter Name" name="Student_name">
+                <input type="email" placeholder="Enter Email" name="student_email">
+                <input type="number" placeholder="Enter Phonenumber" name="Student_phonenumber">
+                <input type="text" name="socialId" placeholder="Enter Linkdin profile" >
+                <!-- <input type="image" name="student_Image" placeholder="upload your Photo"> -->
+                <button type="submit" style="margin: .5em 0em .5em 0em ;">Submit</button>
+            </form>
+            </div>
+            <div class="PM">
+            <h3>Professional Background:</h3>
+<form action="">
+
+1. Current Job Title
+<input type="text" placeholder="Enter your Job" name="job">
+2. Industry/Field of Expertise
+<input type="text" placeholder="Enter your Industry" name="industry">
+3. Years of Experience
+<input type="number" placeholder="Enter your Experience" name="experience">
+4. Relevant Skills
+<input type="text" placeholder="Enter your Skills" name="skills">
+<button type="submit">Submit</button>
+</form>
+</div>
+<div class="PM">
+
+    <h3>Mentoring Experience: </h3>
+    <form action="">
+    1. Have you mentored before? (Yes/No) 
+    <div class="data1" style="display: flex;">
+    yes
+    <input type="radio" name="mentoring" value="yes"><br>
+    No<input type="radio" name="mentoring" value="no"> 
+</div>
+    2. If yes, please describe your mentoring experience
+    <textarea name="mentoring_experience" cols="20" rows="2"></textarea>
+    3. What motivated you to become a mentor?
+    <textarea name="mentoring_experience" cols="20" rows="2"></textarea>
+    <button type="submit">Submit</button>
+</form>
+</div>
+
+<div class="PM">
+    <h3>Mentoring Preferences:</h3>
+
+<form action="">
+1. What type of mentees are you interested in working with (e.g., students, professionals, entrepreneurs)?
+<input type="text" placeholder="Enter Here " name="menteeInterest">
+2. What topics are you willing to mentor on 
+(e.g., career development, industry insights, skill-building)?
+<input type="text" name="skills" placeholder="Enter here" id="">
+3. How much time can you commit to mentoring per week/month?
+<input type="number" name="timecommit" placeholder="Enter here" id="">
+<button type="submit">Submit</button>
+</form>
+    </div>
+    <div class="PM">
+    <h3>Availability:</h3>
+    <form action="">
+    1. What is your preferred method of communication (e.g., email, phone, video calls)?
+    <div class="data1" style="display: flex;">
+    Email<input type="checkbox" name="opt1" id="">
+    Phone <input type="checkbox" name="opt3" id="">
+    Video Calls <input type="checkbox" name="opt3" id=""></div>
+    2. What are your available days and times for mentoring sessions?
+    <input type="number" name="days" placeholder="Enter here" id="">
+    <button type="submit">Submit</button>
+
+</form>
+    </div>
+
+<div class="PM">
+<h3>Additional Information:</h3>
+<form action="">
+1. Why do you want to be a mentor?
+<textarea name="whyMentor" cols="20" rows="2"></textarea>
+
+2. What do you hope to achieve through mentoring?
+<textarea name="whatAchieve" cols="20" rows="2"></textarea>
+3. Any other relevant information you'd like to share
+<textarea name="otherInfo" cols="20" rows="2"></textarea>
+<button type="submit">Submit</button>
+
+</form>
+</div>
+
+
+
+</div>
+</body>
+</html>

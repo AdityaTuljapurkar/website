@@ -1,0 +1,135 @@
+.body{
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+}
+.perDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:    #ffca48;
+}
+.perDetails>form{    background-color:  #4c6b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: .5em;
+    /* padding: .5em; */
+    border: 2px solid black;
+
+}
+.perDetails>form>input{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+}
+.goals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:    #ffca48;
+}
+.goals>form{    background-color:  #4c6b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: .5em;
+    /* padding: .5em; */
+    border: 2px solid black;
+
+}
+.goals>form>input{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+}
+.AOI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:    #ffca48;
+
+}
+.AOI>form{    background-color:  #4c6b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: .5em;
+    /* padding: .5em; */
+    border: 2px solid black;
+
+}
+.AOI>form>input{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.CS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:    #ffca48;
+}
+.CS>form{    background-color:  #4c6b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: .5em;
+    /* padding: .5em; */
+    border: 2px solid black;
+
+}
+.CS>form>input{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+}
+.PM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:    #ffca48; ;
+
+}
+.PM>form{
+    background-color:  #4c6b5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: .5em;
+    /* padding: .5em; */
+    border: 2px solid black;
+
+
+}
+.PM>form>input{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+    
+}
+.PM>form>textarea{
+    margin: 1em 0em .5em 0em;
+    width: 80%;
+    border-radius: 15px;
+    
+}
+.PM >form >button{
+    /* background-color: #ffca48; */
+    background-color: red;
+    margin: .5em ;
+    border-radius: 13%;
+}
+
