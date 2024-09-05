@@ -1,0 +1,335 @@
+body{
+    margin: 0em;
+    font-family: "Ubuntu", system-ui; 
+}
+nav {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+
+    padding: 0.7rem;
+    border-bottom:#ffdd33;
+    border-bottom: 0.5px solid #818181
+
+    
+}
+
+
+nav ul {
+    list-style: none;
+     margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    overflow:hidden;
+
+}
+
+nav ul li {
+    display: inline;
+    float:right;
+    padding:20px;
+    overflow:hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 14px,16px;
+    display: block;
+  
+}
+nav ul li div {
+    color: white;
+    text-decoration: none;
+    padding: 3px,3px;
+    display: block;
+  
+}
+nav input {
+    color:white;
+}
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffdd33;
+    border: 7px solid #ffdd33;
+    border-radius: 7px;
+}
+
+
+
+
+
+/* Header Section */
+header {
+
+    
+    background-color: #000000;
+    height: 70px;
+    color: #ffffff;
+    padding: 0.002rem;
+    text-align: center;
+    margin-bottom:2px;
+    border-bottom: 0.5px solid #313030;
+    
+}
+
+main {
+    padding: 0rem;
+    text-align: center;
+}
+form{
+    position: relative;
+    bottom: 60%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color :#000000;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #ffdd33;
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 90px;
+    margin-left: 1.5%;
+}
+.imageslider{
+    margin: 0px 0px;
+    width: 100% ;
+    height: 38em;
+    background-image: url(/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-size: cover;
+    animation: changeImage 15s linear 5s infinite;
+}
+@keyframes changeImage{
+0%{
+    background-image: url(/annie-spratt-QckxruozjRg-unsplash.jpg);
+}
+50%{
+    background-image: url(/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+}
+100%{
+    background-image: url(/austin-distel-mpN7xjKQ_Ns-unsplash.jpg);
+}
+}
+.buttonImg{
+    position: relative;
+    width: 11em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 95%;
+    left: 18%;
+    
+}
+
+
+
+.buttonImg a {
+    border-radius: 10em;
+    /* border: 3px solid yellow; */
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: red;
+    font-size: 1.5em;
+     animation: buttonImage 15s ease-in-out 7s infinite linear;
+
+}
+.buttonImg a:hover{
+    background-color: aliceblue;
+    color: red;
+    box-shadow: rgba(99, 0, 0, 0.911) 0px 19px 38px, rgba(216, 56, 7, 0.76) 0px 15px 12px;
+    
+}
+.buttonImg {
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    animation: animateButton 2s infinite;
+}
+
+@keyframes animateButton {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+       }   }
+.contianer2{
+    margin: 0em;
+    border: 2px solid black;
+    /* background-color: #ADBBAD; */
+    background-image: url(/abstract-background-design-rough-light-yellow-iris-color_851755-70568.avif);
+    display: flex;
+    height: 30em;
+    justify-self: flex-start;
+}
+.image41 {background-image: url(work/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 3em;
+    left: 3em;
+    border-radius: 15%;
+    z-index: 7;
+width: 11em;
+height: 10em;
+border: 2px solid white;
+
+}
+.image42 {background-image: url(work/christina-wocintechchat-com-8jwCWlsBys8-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 7em;
+    left: 0em;
+    z-index: 6;
+    border: 2px solid white;
+width: 11em;
+height: 10em;
+border-radius: 15%;
+}
+.image43 {background-image: url(work/josh-scorpio-H3Tuh0hwYQk-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+    top: 11em;
+    left: -3em;
+    z-index: 5;
+    border: 2px solid white;
+    width: 11em;
+    height: 10em;
+    border-radius: 15%;
+}
+.image44 {background-image: url(work/linkedin-sales-solutions-EI50ZDA-l8Y-unsplash.jpg);
+    position: relative;
+    background-size: cover;
+     top: 15em;
+    left: -6em;
+    z-index: 4;
+    width: 11em;
+    border: 2px solid white;
+height: 10em;
+border-radius: 15%;
+}
+ .image41:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+
+ .image42:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .image43:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .image44:hover{
+    border-radius: 30%;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ }
+ .contianer3{
+    display: flex;
+    flex-direction: row;
+    ;
+ }
+ .data1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0%;
+    position: relative;
+    right: -18em;
+    top: 8em;
+ }
+.data2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 16em;
+    width: 33%;
+    margin: .1em;
+    padding: .5em;
+
+}
+.data2:hover{
+    background-color: #01a0e2;
+        color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.data3{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid  black;
+    margin: .5em;
+    width: 49%;
+    height: 14em;
+    border-radius: 30px;
+    background-color:  #01a0e2;
+
+}
+.data3:hover{
+    background-color:  #20bcff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
